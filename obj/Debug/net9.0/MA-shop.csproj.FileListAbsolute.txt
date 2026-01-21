@@ -229,3 +229,4 @@ C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\geosrtwb4w-n26
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\ldmh69skm8-n26lez4yo7.gz
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\gzpo0ucutz-050gf1li0j.gz
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\2lp52iwjhy-7950c2etpe.gz
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\MA-shop.sourcelink.json
