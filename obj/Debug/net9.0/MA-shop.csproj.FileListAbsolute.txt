@@ -230,3 +230,11 @@ C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\ldmh69skm8-n26
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\gzpo0ucutz-050gf1li0j.gz
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\2lp52iwjhy-7950c2etpe.gz
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\MA-shop.sourcelink.json
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\bin\Debug\net9.0\publish\web.config
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\bin\Debug\net9.0\publish\appsettings.Development.json
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\bin\Debug\net9.0\publish\appsettings.json
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\bin\Debug\net9.0\publish\MA-shop.deps.json
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\bin\Debug\net9.0\publish\MA-shop.runtimeconfig.json
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\bin\Debug\net9.0\publish\MA-shop.staticwebassets.endpoints.json
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\3butv4grij-3w7jejt5b1.gz
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Debug\net9.0\compressed\9npoy155my-vtm9dvzpet.gz

@@ -230,3 +230,5 @@ C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Release\net9.0\refint\MA-shop.dll
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Release\net9.0\MA-shop.pdb
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Release\net9.0\MA-shop.genruntimeconfig.cache
 C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Release\net9.0\ref\MA-shop.dll
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Release\net9.0\compressed\3butv4grij-3w7jejt5b1.gz
+C:\Users\Majd\Desktop\Asp_vsc\MA-shop\obj\Release\net9.0\compressed\9npoy155my-vtm9dvzpet.gz
