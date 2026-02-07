@@ -52,7 +52,7 @@
     />
     <!--end::Third Party Plugin(Bootstrap Icons)-->
     <!--begin::Required Plugin(AdminLTE)-->
-    <link rel="stylesheet" href="../css/adminlte.css" />
+    <link rel="stylesheet" href="~/Admin/css/adminlte.css" />
     <!--end::Required Plugin(AdminLTE)-->
   </head>
   <!--end::Head-->
@@ -295,26 +295,58 @@
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-speedometer"></i>
                   <p>
-                    Dashboard
+                    Catagories
                     <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="../index.html" class="nav-link">
+                    <a asp-controller="categories" asp-action="Index" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v1</p>
+                      <p>Index</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="../index2.html" class="nav-link">
+                    <a asp-controller="categories" asp-action="Create" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v2</p>
+                      <p>Create</p>
                     </a>
                   </li>
-                
+                 
                 </ul>
               </li>
+              
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon bi bi-speedometer"></i>
+                  <p>
+                    Products
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a asp-controller="Products" asp-action="Index" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Index</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a asp-controller="Products" asp-action="Create" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Create</p>
+                    </a>
+                  </li>
+                 
+                </ul>
+              </li>
+               <li class="nav-item">
+                <a asp-controller="Home" asp-action="Index"class="nav-link">
+                  <i class="nav-icon bi bi-palette"></i>
+                  <p>Home</p>
+                </a>
+              </li>
+                
              
          
             </ul>
@@ -450,6 +482,7 @@
     </script>
     <!--end::OverlayScrollbars Configure-->
     <!--end::Script-->
+    <partial name="_ValidationScriptsPartial" />
   </body>
   <!--end::Body-->
 </html>

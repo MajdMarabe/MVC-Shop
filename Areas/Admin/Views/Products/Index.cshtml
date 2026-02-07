@@ -1,0 +1,62 @@
+<h1>this is all products</h1>
+
+<div class="card mb-4">
+                  <div class="card-header"><h3 class="card-title">Bordered Table</h3></div>
+                  <!-- /.card-header -->
+                  <div class="card-body">
+@if(Model != null){
+
+                    <table class="table table-bordered" role="table">
+                      <thead>
+                        <tr>
+                          <th style="width: 50px" scope="col">Product Id</th>
+                          <th scope="col">Product name</th>
+                          <th>Product Description</th>
+                          <th>Product Price</th>
+                         <th>Product Category</th>
+
+                          <th>Product Image</th>
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @{
+    foreach(var product in Model){
+  <tr class="align-middle">
+                          <td> @product.Id</td>
+                          <td>  @product.Name  </td>
+                           <td>  @product.Description  </td>
+                          <td>  @product.Price  </td>
+                          <td>  @product.Category.Name  </td>
+
+  <td>  <img  src= "/images/@product.Image" />
+    
+    
+     </td>
+                       
+                        </tr>
+    
+}
+                      
+   }                    
+                        
+                       
+                      </tbody>
+                    </table>
+
+}else{
+
+  <div class= alert alert-warning>no product found</div>
+}
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer clearfix">
+                    <ul class="pagination pagination-sm m-0 float-end">
+                      <li class="page-item"><a class="page-link" href="#">«</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">»</a></li>
+                    </ul>
+                  </div>
+                </div>

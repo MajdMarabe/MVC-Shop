@@ -1,0 +1,54 @@
+<h1>this is all categories</h1>
+
+<div class="card mb-4">
+                  <div class="card-header"><h3 class="card-title">Bordered Table</h3></div>
+                  <!-- /.card-header -->
+                  <div class="card-body">
+@if(Model != null){
+
+                    <table class="table table-bordered" role="table">
+                      <thead>
+                        <tr>
+                          <th style="width: 50px" scope="col">Category Id</th>
+                          <th scope="col">Category name</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @{
+    foreach(var category in Model){
+  <tr class="align-middle">
+                          <td> @category.Id</td>
+                          <td>  @category.Name  </td>
+                          <td>
+                            <a class="btn btn-danger" asp-controller="Categories" asp-action="Remove" asp-route-id=@category.Id> Delete</a>
+                            <a class="btn btn-info" asp-controller="Categories" asp-action="Edit" asp-route-id=@category.Id> Edit</a>
+
+                              </td>
+                          
+                        </tr>
+    
+}
+                      
+   }                    
+                        
+                       
+                      </tbody>
+                    </table>
+
+}else{
+
+  <div class= alert alert-warning>no Category found</div>
+}
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer clearfix">
+                    <ul class="pagination pagination-sm m-0 float-end">
+                      <li class="page-item"><a class="page-link" href="#">«</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">»</a></li>
+                    </ul>
+                  </div>
+                </div>

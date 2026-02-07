@@ -1,0 +1,13 @@
+@model Category
+<form asp-controller="Categories" asp-action="update" method="post">
+    
+    <div class="mb-3">
+                        <label for="Name" class="form-label" >Name</label>
+                        <input type="hidden" asp-for="Id" class="form-control" >
+
+                        <input asp-for="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <span class="text-danger" asp-validation-for="Name"></span>
+
+    </div>
+    <button class="btn btn-sucess"> Update</button>
+</form>

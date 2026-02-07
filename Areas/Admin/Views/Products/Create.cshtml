@@ -1,0 +1,50 @@
+@using MA_shop.Migrations
+@using Microsoft.AspNetCore.Http.Features
+@model Product
+<form asp-controller="Products" asp-action="store" method="post" enctype="multipart/form-data">
+    
+    <div class="mb-3">
+                        <label for="Name" class="form-label">Name</label>
+                        <input asp-for="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <span class="text-danger" asp-validation-for="Name"></span>
+                         
+    </div>
+ <div class="mb-3">
+                        <label for="Price" class="form-label">Price</label>
+                        <input asp-for="Price" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <span class="text-danger" asp-validation-for="Price"></span>
+                         
+    </div>
+<div class="mb-3">
+                        <label for="Description" class="form-label">Description</label>
+                        <textarea asp-for="Description" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></textarea>
+                          <span class="text-danger" asp-validation-for="Description"></span>
+                         
+    </div>
+    <div class="mb-3">
+                        <label for="Rate" class="form-label">Rate</label>
+                        <input asp-for="Rate" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <span class="text-danger" asp-validation-for="Rate"></span>
+                         
+    </div>
+      <div class="mb-3">
+                        <label for="Image" class="form-label">Image</label>
+                        <input type="file" asp-for="Image" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <span class="text-danger" ></span>
+                         
+    </div>
+  
+      <div class="mb-3">
+                        <label asp-for="CategoryId" class="form-label"></label>
+<select class="form-select" asp-for="CategoryId">
+  @foreach( var category in ViewBag.categories){
+  <option value =@category.Id>@category.Name</option>
+
+  }
+</select >
+                          <span class="text-danger" asp-validation-for="CategoryId"></span>
+                         
+    </div>
+     
+    <button class="btn btn-sucess"> create</button>
+</form>

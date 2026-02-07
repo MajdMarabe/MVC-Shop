@@ -1,0 +1,11 @@
+@model Category
+<form asp-controller="Categories" asp-action="store" method="post">
+    
+    <div class="mb-3">
+                        <label for="Name" class="form-label">Name</label>
+                        <input asp-for="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <span class="text-danger" asp-validation-for="Name"></span>
+
+    </div>
+    <button class="btn btn-sucess"> create</button>
+</form>
